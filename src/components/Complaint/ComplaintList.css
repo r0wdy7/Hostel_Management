@@ -1,0 +1,55 @@
+.complaint-list-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.complaint-list-container .complaint-title-section {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.complaint-list-container .complaint-list-title {
+  width: fit-content;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.complaint-list-container .complaint-list-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 0 20px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #fff;
+}
+
+.complaint-list-container .complaint-pagination-section {
+  margin: 15px auto 0 auto;
+  width: fit-content;
+}
+
+.complaint-list-container .post-complaint-button-section {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  background-color: #03ef62;
+  border: 5px solid #03ef62;
+  color: #163269;
+}
+
+.complaint-list-container .post-complaint-button-section:hover {
+  cursor: pointer;
+  background-color: #65ff8f;
+  border-color: #65ff8f;
+  text-decoration: none;
+}

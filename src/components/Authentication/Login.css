@@ -1,0 +1,150 @@
+.main-login .login-error {
+  position: fixed;
+  top: 0;
+  left: 35%;
+  width: 30%;
+  margin: 0 auto;
+  height: fit-content;
+  font-size: 20px;
+  padding: 10px 60px;
+  text-align: center;
+  border: 5px solid #ff5400;
+  border-radius: 5px;
+  background-color: #ff5400;
+}
+
+.main-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background: url(https://cdn.datacamp.com/main-app/assets/rebrand/backgrounds/sign-in-01a6c894c2c039d4d395b8f490c13555c5d53e6948f55199bd7515682994cd6f.svg);
+  background-position: center -240px;
+  background-repeat: no-repeat;
+  background-color: #05192d;
+}
+
+.login-title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.login-title h1 {
+  margin: 0;
+}
+
+.login-form-section {
+  background-color: #fff;
+  color: #05192d;
+  display: flex;
+  width: 30%;
+  box-shadow: 0 2px 4px -1px rgb(5 25 45 / 30%);
+  margin: 0 auto;
+  padding: 30px 0;
+  border-radius: 5px;
+}
+
+main,
+section {
+  margin: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #05192d;
+  font-size: 28px;
+  margin: 0;
+}
+
+.login-form .login-form-input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.login-form-input label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.login-form-input input {
+  border: 2px solid #e5e1da;
+  background-color: #ffffff;
+  padding: 11px 11px;
+  color: #05192d;
+  transition: border 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.login-form-input input:focus {
+  border-color: #009bd8;
+  outline: none;
+}
+
+.login-form-input.invalid input {
+  border-color: #ff5400;
+}
+
+.login-form button {
+  font-family: inherit;
+  border: 2px solid #03ef62;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: black;
+  font-size: 16px;
+  background-color: #03ef62;
+  color: #05192d;
+  font-weight: bold;
+  transition: background-color 0.3s cubic-bezier(0.77, 0, 0.175, 1),
+    border-color 0.3s cubic-bezier(0.77, 0, 0.175, 1),
+    color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.login-form button:hover {
+  cursor: pointer;
+  background-color: #65ff8f;
+  border-color: #65ff8f;
+  color: #05192d;
+}
+
+.login-form .login-helper {
+  display: flex;
+  justify-content: center;
+}
+
+.login-helper a {
+  margin-top: 10px;
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  color: #007bb6;
+  font-weight: bold;
+  text-decoration: none;
+  transition: border-color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.login-helper a:hover {
+  color: #007bb6;
+  text-decoration: underline;
+}
+
+.login-helper a:active {
+  color: #007bb6;
+  text-decoration: none;
+}

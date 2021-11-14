@@ -1,0 +1,21 @@
+.complaint-item {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #05192d;
+  border: 5px solid #05192d;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.complaint-item .complaint-image {
+  min-width: 20%;
+  max-width: 20%;
+  height: 130px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.complaint-image img {
+  height: 130px;
+  border-radius: 15px;
+}
